@@ -6,7 +6,7 @@ function Search() {
   const { darkMode } = useSelector((state) => state.darkModeReducer);
   return (
     <div className={darkMode ? "searchInputDarkMode" : "searchInput"}>
-      <BiSearchAlt2 size={24} />
+      <BiSearchAlt2 size={16} className="searchIcon"/>
       <input type="text" placeholder="Search for a country..." />
     </div>
   );
