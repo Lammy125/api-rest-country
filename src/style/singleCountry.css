@@ -1,192 +1,379 @@
 .singleCountry {
-    text-align: center;
-    background-color: hsl(0, 0%, 98%);
-    width: auto;
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  width: auto;
 }
 
 .btn {
-    padding: 60px 80px;
+  padding: 60px 80px 20px 80px;
 }
 
 .btnDarkMode {
-    background-color: hsl(207, 26%, 17%);
-    padding: 60px 80px;
+  background-color: hsl(207, 26%, 17%);
+  padding: 60px 80px 20px 80px;
 }
 
 .linkBtn {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btnBack {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid rgb(233, 231, 231);
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 1px 1px 5px rgb(233, 231, 231);
-    color: hsl(200, 15%, 8%);
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgb(233, 231, 231);
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+  color: hsl(200, 15%, 8%);
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btnBackDarkMode {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid hsl(212, 22%, 14%);
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: hsl(209, 23%, 22%);
-    box-shadow: 1px 1px 5px hsl(212, 22%, 14%);
-    color:  hsl(0, 0%, 100%);
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid hsl(212, 22%, 14%);
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 1px 1px 5px hsl(212, 22%, 14%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gridSkeleton {
-    display: flex;
-    gap: 110px;
+  display: flex;
+  gap: 110px;
 }
 
 .countryDetails {
-    padding: 0 80px;
-    background-color: hsl(0, 0%, 98%);
-    height: 490px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px 80px;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .countryDetailsDarkMode {
-    padding: 0 80px;
-    background-color: hsl(207, 26%, 17%);
-    height: 490px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 80px;
+  background-color: hsl(207, 26%, 17%);
+  height: 100vh;
 }
 
 .singleCountryInfo {
-    display: flex;
-    gap: 100px;
+  display: flex;
+  gap: 100px;
 }
 
 .singleCountryInfoDarkMode {
-    display: flex;
-    gap: 100px;
-    color: hsl(0, 0%, 100%);
+  display: flex;
+  gap: 100px;
+  color: hsl(0, 0%, 100%);
 }
 
 .typography {
-    display: flex;
-    text-align: left;
-    gap: 100px;
+  display: flex;
+  text-align: left;
+  gap: 100px;
 }
 
 .typographyDarkMode {
-    display: flex;
-    text-align: left;
-    gap: 100px;
+  display: flex;
+  text-align: left;
+  gap: 100px;
 }
 
 .typography1 {
-    display: flex;
-    text-align: left;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
 }
 
 .typographyDarkMode1 {
-    display: flex;
-    text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 .imageCard {
-    width: 600px;
-    height: 350px;
-    border-radius: 5px;
-    border: 15px solid rgb(233, 231, 231);
-    box-shadow: 1px 1px 5px rgb(233, 231, 231);
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+  border: 15px solid rgb(233, 231, 231);
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
 }
 
 .imageCardDarkMode {
-    width: 600px;
-    height: 350px;
-    border-radius: 5px;
-    border: 15px solid hsl(207, 26%, 17%);
-    box-shadow: 1px 1px 5px hsl(209, 23%, 22%);
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+  border: 15px solid hsl(207, 26%, 17%);
+  box-shadow: 1px 1px 5px hsl(209, 23%, 22%);
 }
 
 .countryInfo {
-    padding: 23px 0;
+  padding: 23px 0;
 }
 
 .countryInfoDarkMode {
-    padding: 23px 0;
+  padding: 23px 0;
 }
 
 .countryInfoDarkMode p {
-    color: rgb(192, 191, 191);
+  color: rgb(192, 191, 191);
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.typo strong {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.typoDarkMode strong {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .typography {
-    padding: 10px;
+  padding: 10px;
 }
 
 .typography strong {
-    color: rgb(65, 65, 65);
-  }
-
-.typographyDarkMode {
-    padding: 10px;
+  color: rgb(65, 65, 65);
 }
 
-.typographyDarkMode strong{
-    color: hsl(0, 0%, 100%);
+.typographyDarkMode {
+  padding: 10px;
+}
+
+.typographyDarkMode strong {
+  color: hsl(0, 0%, 100%);
 }
 
 .typography1 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .typography1 strong {
-    color: rgb(65, 65, 65);
-  }
-
-.typographyDarkMode1 {
-    padding: 10px;
+  color: rgb(65, 65, 65);
 }
 
-.typographyDarkMode1 strong{
-    color: hsl(0, 0%, 100%);
+.typographyDarkMode1 {
+  padding: 10px;
+}
+
+.typographyDarkMode1 strong {
+  color: hsl(0, 0%, 100%);
 }
 
 .border {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
 }
 
 .borderDarkMode {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
 }
 
 .btnCountry {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid rgb(233, 231, 231);
-    border-radius: 5px;
-    padding: 7px 18px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 1px 1px 5px rgb(233, 231, 231);
-    color: hsl(200, 15%, 8%);
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgb(233, 231, 231);
+  border-radius: 5px;
+  padding: 7px 18px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+  color: hsl(200, 15%, 8%);
+  cursor: pointer;
 }
 
 .btnCountryDarkMode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid hsl(212, 22%, 14%);
+  border-radius: 5px;
+  padding: 7px 18px;
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 1px 1px 5px hsl(212, 22%, 14%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.btnCountry {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnCountryDarkMode {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    padding: 25px 20px;
+  }
+
+  .btnDarkMode {
+    padding: 25px 20px;
+  }
+
+  .countryDetails {
+    padding: 20px 18px 113px 18px;
+    height: 100%;
+  }
+
+  .countryDetailsDarkMode {
+    padding: 20px 18px 113px 18px;
+    height: 100%;
+  }
+
+  .singleCountryInfo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .singleCountryInfoDarkMode {
+    flex-direction: column;
+    gap: 10px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .imageCard {
+    width: 700px;
+    height: 350px;
+  }
+
+  .imageCardDarkMode {
+    width: 700px;
+    height: 350px;
+  }
+
+  .typo strong {
+    font-size: 30px;
+  }
+
+  .typoDarkMode strong {
+    font-size: 30px;
+  }
+
+  .typography p {
+    font-size: 20px;
+  }
+
+  .typographyDarkMode p {
+    font-size: 20px;
+  }
+
+  .typography1 p {
+    font-size: 20px;
+  }
+
+  .typographyDarkMode1 p {
+    font-size: 20px;
+  }
+
+  .btnCountry {
+    font-size: 20px;
+  }
+
+  .btnCountryDarkMode {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    padding: 25px 18px;
+  }
+
+  .btnDarkMode {
+    padding: 25px 18px;
+  }
+
+  .singleCountryInfo {
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+
+  .singleCountryInfoDarkMode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .countryDetails {
+    height: 100%;
+  }
+
+  .countryDetailsDarkMode {
+    padding: 20px 18px 113px 18px;
+  }
+
+  .singleCountryInfo {
+    gap: 0;
+  }
+
+  .singleCountryInfoDarkMode {
+    gap: 0;
+  }
+
+  .imageCard {
+    width: 100%;
+  }
+
+  .imageCardDarkMode {
+    width: 100%;
+  }
+
+  .typo strong {
+    font-size: 18px;
+  }
+
+  .typoDarkMode strong {
+    font-size: 18px;
+  }
+
+  .typography {
     gap: 10px;
-    border: 2px solid hsl(212, 22%, 14%);
-    border-radius: 5px;
-    padding: 7px 18px;
-    background-color: hsl(209, 23%, 22%);
-    box-shadow: 1px 1px 5px hsl(212, 22%, 14%);
-    color:  hsl(0, 0%, 100%);
-    cursor: pointer;
+  }
+
+  .typographyDarkMode {
+    gap: 10px;
+  }
+
+  .typography p {
+    font-size: 14px;
+  }
+
+  .typographyDarkMode p {
+    font-size: 14px;
+  }
+
+  .typography1 p {
+    font-size: 14px;
+  }
+
+  .typographyDarkMode1 p {
+    font-size: 14px;
+  }
+
+  .btnCountry {
+    font-size: 14px;
+  }
+
+  .btnCountryDarkMode {
+    font-size: 14px;
+  }
 }

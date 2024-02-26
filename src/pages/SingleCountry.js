@@ -20,7 +20,6 @@ const SingleCountry = () => {
       <Header />
       <div className="singleCountry">
         <Button />
-
         <CountryDetails />
       </div>
     </div>
