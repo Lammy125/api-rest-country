@@ -8,17 +8,29 @@ import { useSelector } from "react-redux";
 import CardSkeleton from "./Skeleton";
 import { Link } from "react-router-dom";
 
-export default function MediaCard() {
+export default function MediaCard({ searchQuery, selectedRegion }) {
   const { country, loading } = useSelector((state) => state.countryReducer);
-
   const { darkMode } = useSelector((state) => state.darkModeReducer);
+
+  const filteredCountries = country?.filter((count) => {
+    const matchesSearch =
+      count.name.toLowerCase().includes(searchQuery) ||
+      count.population.toString().includes(searchQuery) ||
+      count.region.toLowerCase().includes(searchQuery) ||
+      count.capital?.toLowerCase().includes(searchQuery);
+
+    const matchesRegion =
+      selectedRegion === "" || count.region === selectedRegion;
+
+    return matchesSearch && matchesRegion;
+  });
 
   return (
     <div>
       <div className={darkMode ? "countryFlagDarkMode" : "countryFlag"}>
         {loading && <CardSkeleton />}
         {!loading &&
-          country?.map((count, i) => (
+          filteredCountries?.map((count, i) => (
             <div key={i}>
               <Link to={`/${count.name}/details`} className="linkSingleCountry">
                 <Card
